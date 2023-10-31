@@ -11,23 +11,28 @@ export default function DefaultCarousel() {
     <Carousel className='border rounded-3xl overflow-hidden'>
       <img
         alt="..."
-        src={img1} className='rounded-lg'
+        src={img1}
+        className="w-full h-full object-cover"
       />
       <img
         alt="..."
         src={img2}
+        className="w-full h-full object-cover"
       />
       <img
         alt="..."
         src={img3}
+        className="w-full h-full object-cover"
       />
       <img
         alt="..."
         src={img4}
+        className="w-full h-full object-cover"
       />
       <img
         alt="..."
         src={img5}
+        className="w-full h-full object-cover"
       />
     </Carousel>
   )
